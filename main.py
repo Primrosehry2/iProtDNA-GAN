@@ -16,12 +16,6 @@ val_imbalance_path = './Graph_2.0/573_val.pt'
 train_balance_data = torch.load(train_balance_path, map_location=device)
 val_imbalance_data = torch.load(val_imbalance_path, map_location=device)
 # print(data)   # Data(x=[73, 2560], edge_index=[2, 572], y=[1, 73])
-# # 计算要选择的元素数量
-# num_train = int(0.7 * len(data))
-# # 随机选择70%的元素
-# train_data = random.sample(data, num_train)
-# # 剩余的元素
-# val_data = [x for x in data if x not in train_data]
 
 
 print('train_data:', train_balance_data)
