@@ -36,7 +36,7 @@ Processing of balanced datasets, and Focal Loss
 ### 4. main.py
 Implementation of model training. Here we provide a sample file, and please use iProtDNA-GAN as following commands:
 
-### 4. test.py
+### 5. test.py
 Implementation of independent testing of the model. Here we provide a sample file, and please use iProtDNA-GAN as following commands:
 
 ```
